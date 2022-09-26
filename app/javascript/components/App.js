@@ -2,7 +2,7 @@
 import React from "react"
 import Header from './Header'
 import Footer from './Footer'
-// import Quotes from './Quotes'
+import Quotes from './Quotes'
 // import Modal from './Modal'
 // import Favorites from './Favorites'
 
@@ -24,7 +24,7 @@ export default function App() {
     <main>
       <Header />
       <p>Hello world, this is your app speaking 2</p>
-      {/*<Quotes />*/}
+      <Quotes />
       {/*{favorites.length > 0 && <Favorites />}*/}
       {/*{showModal && <Modal /> }*/}
       <Footer />
